@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+     Cabin Fitment
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card class="card-wrapper">  
+    <ion-card-content>
+      <h3 class="card-title">
+        Lets started what would you like to check in?
+      </h3>
+      <div class="card-content card-div-1" (click)="gotoArIntro()">
+        <img class="card-img" src="../../assets/imgs/suitcase.jpeg">
+        <ion-text class="main-title"> Hand Luggage</ion-text>
+        <ion-text class="subtitle">Max 55 x 35 x 25 CM</ion-text>
+      </div>
+      <div class="card-content card-div-2" (click)="gotoArIntro()">
+        <img class="card-img" src="../../assets/imgs/w_handbag.jpg">
+        <ion-text class="main-title"> Accessory</ion-text>
+        <ion-text class="subtitle">Max 55 x 35 x 25 CM</ion-text>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <!-- <ion-card class="card-wrapper">  
+    <ion-card-content>
+      Accessery
+    </ion-card-content>
+  </ion-card> -->
+</ion-content>
